@@ -56,57 +56,7 @@ nav a:hover {
     margin: auto;
 }
 
-/* Section Styles */
-.section {
-    margin-bottom: 40px;
-}
 
-.section h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 1.8em;
-    color: #007BFF;
-}
-
-/* Books Grid */
-.books-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-/* Individual Book Styles */
-.book {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
-    text-align: center;
-}
-
-.book:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.book img {
-    width: 100%;
-    height: auto;
-}
-
-.book h3 {
-    margin: 15px 0;
-    font-size: 1.2em;
-    color: #0056b3;
-}
-
-.book p {
-    font-size: 0.95em;
-    color: #555;
-    margin: 0 15px 20px;
-}
 
 /* Footer Styles */
 footer {
@@ -125,3 +75,95 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    object-fit: cover; /* Ensures video covers the viewport */
+}
+/* General reset for body */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Video Background */
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1; /* Ensures the video stays behind the content */
+}
+
+/* Container for Categories */
+.container {
+    position: absolute;
+    top: 20%; /* Adjust this to move the categories section */
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1; /* Content will be above the video */
+    color: white;
+    text-align: center;
+}
+
+/* Section Title */
+h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Grid Layout for Categories */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+}
+
+.book {
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly dark background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.book h3 {
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+.book p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
