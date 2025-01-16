@@ -1,26 +1,20 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-}
-
 /* Header Styles */
 header {
+    
     background-color: #4CAF50;
     color: white;
-    padding: 1em 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em 0; 
+    text-align:center;
+    height:20px;
+    margin: 0px;
+    height:fit-content;
 }
 
 /* Navigation Styles */
 nav {
     display: flex;
     width: 100%;
-    justify-content: right;
+    justify-content: center;
     background-color: #333;
     padding: 0.5em 0;
 }
@@ -35,58 +29,6 @@ nav a:hover {
     color: #4CAF50;
 }
 
-/* Container Styles */
-.container {
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-/* Section Styles */
-.section {
-    margin-bottom: 30px;
-}
-.section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #4CAF50;
-}
-
-/* Books Grid Styles */
-.books-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-}
-
-/* Book Card Styles */
-.book {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: white;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-.book:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-}
-.book img {
-    width: 100%;
-    height: auto;
-}
-.book h3 {
-    font-size: 1.2em;
-    margin: 10px 0;
-    color: #333;
-    text-align: center;
-}
-.book p {
-    color: #555;
-    margin: 0 10px 10px;
-    text-align: center;
-}
-
 /* Footer Styles */
 footer {
     background-color: #4CAF50;
@@ -99,3 +41,119 @@ footer a {
     color: white;
     text-decoration: underline;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.full-screen {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Video Background Section */
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    object-fit: cover; /* Ensures video covers the viewport */
+}
+
+.quote-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional for readability */
+    border-radius: 10px;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    overflow: hidden;
+}
+
+/* Individual Slide */
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    animation: slide-animation 12s infinite;
+}
+
+/* Quotes on Slides */
+.photo-quote {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    border-radius: 10px;
+}
+
+/* Animation */
+@keyframes slide-animation {
+    0% { opacity: 0; }
+    5% { opacity: 1; }
+    33% { opacity: 1; }
+    38% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/* Slide Timing */
+.slide:nth-child(1) {
+    animation-delay: 0s;
+}
+.slide:nth-child(2) {
+    animation-delay: 4s;
+}
+.slide:nth-child(3) {
+    animation-delay: 8s;
+}
+
+
