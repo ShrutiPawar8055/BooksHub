@@ -41,7 +41,7 @@ video {
     width: 440px;
     height: 480px;
     padding: 30px;
-    box-shadow:#333
+    box-shadow:#333;
     border: 2px solid #0b0b0b;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
