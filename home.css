@@ -156,4 +156,33 @@ video {
     animation-delay: 8s;
 }
 
+.loginpage a{
+    justify-content: right;
+    color: rgb(14, 12, 13);
+    
+        width: 200px;
+        height: 80px;
+        background: #f0eded;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .3s;
+        width: 200px;
+        height: 80px;
+    
+    
+    }
+    .login-btn{
+        justify-content: right;
+        background-color: #311baf;
+        color: black;
+        width: 400px;
+        height: 80px;
+        background: #222;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
 
