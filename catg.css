@@ -6,28 +6,59 @@ body {
     background-color: #f7f9fc;
     color: #333;
 }
-
-/* Header Styles */
-header {
-    background-color: blanchedalmond;
-    color:rgb(80, 32, 32);
-    text-align: left;
-    padding-top: 0.7rem;
-    padding-left: 2rem;
-    
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-size: 1.2em;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
+header {
+    
+    background-color: #7f4172;
+    color: white;
+    padding: 1em 0; 
+    text-align:center;
+    height:20px;
+    margin: 0px;
+    height:fit-content;
+    justify-content: inline;
+}
+.icons {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-align: right;
+
+}
+
+/* Navigation Styles */
+
 marquee{
-    background-color: #4CAF50;
+    background-color
  color:white;
  font-weight: bold;
  font-size: larger;
- height: 40px;
- justify-content: center;
+ height: 30px;
+ justify-content:center;
+ 
  
  
 }
+header {
+    background-color: rgb(251, 231, 214);
+    color:rgb(80, 32, 32);
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.3em;
+}
+
 
 .logo {
     height: 7px;
@@ -41,22 +72,23 @@ header h1 {
 }
 
 header p {
-    margin: 5px 0 0;
+    margin: 2px 0 0;
 }
 
 /* Navigation Bar Styles */
 nav {
     border-top: #333;
-    
-    background-color: blanchedalmond;
+    height: ;
+    background-color:rgb(97, 59, 59);
     display: flex;
-    justify-content: right;
+    justify-content :center;
     padding: 10px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 nav a {
-    color: rgb(80, 32, 32);
+    color: rgb(228, 225, 225);
     text-decoration: none;
     margin: 0px 30px;
     font-size: 1.1em;
@@ -67,6 +99,8 @@ nav a {
 nav a:hover {
     color: white;
 }
+
+/* Header Styles *
 
 /* Main Container Styles */
 .container {
