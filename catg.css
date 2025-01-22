@@ -9,14 +9,30 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #007BFF;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+    background-color: blanchedalmond;
+    color:rgb(80, 32, 32);
+    text-align: left;
+    padding-top: 0.7rem;
+    padding-left: 2rem;
+    
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1.2em;
 }
+marquee{
+    background-color: #4CAF50;
+ color:white;
+ font-weight: bold;
+ font-size: larger;
+ height: 40px;
+ justify-content: center;
+ 
+ 
+}
 
+.logo {
+    height: 7px;
+    width: auto;
+}
 header h1 {
     margin: 0;
     font-size: 2em;
@@ -30,24 +46,26 @@ header p {
 
 /* Navigation Bar Styles */
 nav {
-    background-color: #0056b3;
+    border-top: #333;
+    
+    background-color: blanchedalmond;
     display: flex;
-    justify-content: center;
-    padding: 10px 0;
+    justify-content: right;
+    padding: 10px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
-    color: white;
+    color: rgb(80, 32, 32);
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0px 30px;
     font-size: 1.1em;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #FFD700;
+    color: white;
 }
 
 /* Main Container Styles */
@@ -63,7 +81,7 @@ nav a:hover {
 
 /* Footer Styles */
 footer {
-    background-color: #007BFF;
+    background-color: #362624;
     color: white;
     text-align: center;
     padding: 105px 0;
