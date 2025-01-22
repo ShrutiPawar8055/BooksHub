@@ -185,11 +185,18 @@ video {
     color: white;
     text-align: center;
 }
+button{
+    text-color: black;
+}
 
 /* Section Title */
 h2 {
     font-size: 3rem;
     margin-bottom: 20px;
+    color: black;
+}
+button {
+    justify-content: center;
 }
 
 /* Grid Layout for Categories */
