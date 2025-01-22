@@ -3,8 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f9fc;
-    color: #333;
+    background-color: rgb(129, 65, 9);
+    color: peachpuff;
 }
 
 /* Header Styles */
@@ -19,7 +19,7 @@ header {
     font-size: 1.2em;
 }
 marquee{
-    background-color: #4CAF50;
+    background-color: rgb(250, 197, 150);
  color:white;
  font-weight: bold;
  font-size: larger;
@@ -81,8 +81,8 @@ nav a:hover {
 
 /* Footer Styles */
 footer {
-    background-color: #362624;
-    color: white;
+    background-color: #613a34;
+    color: paleturquoise;
     text-align: center;
     padding: 105px 0;
     margin-top: 0px;
@@ -96,14 +96,14 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-.video-background {
+/* .video-background {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
-}
+} */
 
-video {
+/* video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -111,8 +111,8 @@ video {
     min-height: 100%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    object-fit: cover; /* Ensures video covers the viewport */
-}
+    object-fit: cover; Ensures video covers the viewport */
+/* } */
 /* General reset for body */
 body, html {
     margin: 0;
@@ -122,14 +122,14 @@ body, html {
 }
 
 /* Video Background */
-.video-background {
+/* .video-background {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
-}
+} */
 
-video {
+/* video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -138,7 +138,7 @@ video {
     transform: translate(-50%, -50%);
     object-fit: cover;
     z-index: -1; /* Ensures the video stays behind the content */
-}
+/* } */ 
 
 /* Container for Categories */
 .container {
@@ -173,9 +173,14 @@ h2 {
 }
 
 .book img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 10px;
+}
+
+img:hover{
+    background-color: bisque;
+    font-size: 18px;
 }
 
 .book h3 {
