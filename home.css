@@ -11,25 +11,8 @@ header {
     justify-content: inline;
 }
 
-<<<<<<< HEAD
 /* Navigation Styles */
 
-=======
-
-nav {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    background-color: #333;
-    padding: 0.5em 0;
-    
-}
-.heart {
-    align-content: left;
-    
-
-}
->>>>>>> 639d21170bfa160a2fb3057f077e8f2ee8e4f8ed
 marquee{
     background-color: #43a946;
  color:white;
@@ -89,11 +72,7 @@ nav a {
 }
 
 nav a:hover {
-<<<<<<< HEAD
     color: white;
-=======
-    color: #e5eb48;
->>>>>>> 639d21170bfa160a2fb3057f077e8f2ee8e4f8ed
 }
 
 /* Footer Styles */
@@ -119,20 +98,13 @@ footer a:hover {
     height: 100vh;
     overflow: hidden;
 }
-<<<<<<< HEAD
 
 /* General Styles */
-=======
->>>>>>> 639d21170bfa160a2fb3057f077e8f2ee8e4f8ed
 body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-<<<<<<< HEAD
     overflow-x:scroll ; /* Prevent horizontal scrolling */
-=======
-    overflow-x: hidden; 
->>>>>>> 639d21170bfa160a2fb3057f077e8f2ee8e4f8ed
 }
 
 .full-screen {

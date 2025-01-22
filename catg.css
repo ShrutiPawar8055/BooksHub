@@ -143,13 +143,8 @@ video {
 /* Container for Categories */
 .container {
     position: relative;
-<<<<<<< HEAD
     top: 1%; /* Adjust this to move the categories section */
     left:0%;
-=======
-    top: 20px; /* Adjust this to move the categories section */
-    left: 40px;
->>>>>>> 95e5b3d (add file)
     width: 100%;
     padding: 0px;
     z-index: 1; /* Content will be above the video */
@@ -165,13 +160,8 @@ h2 {
 
 /* Grid Layout for Categories */
 .books-grid {
-<<<<<<< HEAD
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 3 columns */
-=======
-    display: flex;
-    grid-template-columns: 6, 1fr; /* 3 columns */
->>>>>>> 95e5b3d (add file)
     gap: 20px;
 }
 
