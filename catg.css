@@ -189,6 +189,12 @@ h2 {
     margin-bottom: 20px;
     color: black;
 }
+.logonew {
+    
+    font-size:80px ;
+    font-style:italic;
+    font-weight: bold;
+}
 button {
     justify-content: center;
     
