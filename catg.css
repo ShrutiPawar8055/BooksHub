@@ -47,6 +47,7 @@ marquee{
  
  
 }
+
 header {
     background-color: rgb(251, 231, 214);
     color:rgb(80, 32, 32);
@@ -237,4 +238,52 @@ img:hover{
     font-size: 1.2rem;
     color: #ddd;
 }
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
+.contact-form2 {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    padding: 100px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.contact-form2 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form2 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form2 input,
+.contact-form2 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form2 button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form2 button:hover {
+    background-color: #0056b3;
+}
