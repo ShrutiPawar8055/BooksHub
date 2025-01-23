@@ -53,7 +53,7 @@ header {
     display: flex;
 }
 .search-bar {
-    display:flex;
+    display: flex;
     justify-content: left;
     margin-top: 20px;
     height: 40px;
