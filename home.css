@@ -39,11 +39,12 @@ h1 {
 /* Navigation Styles */
 
 marquee{
-    background-color
- color:white;
+    background-color:rgb(10, 189, 10);
+    color: white;
+    padding-top: 7px;
  font-weight: bold;
- font-size: larger;
- height: 30px;
+ /* font-size: larger; */
+ height: 25px;
  justify-content:center;
  
  
@@ -61,10 +62,10 @@ header {
 }
 
 
-.logo {
-    height: 7px;
+/* .logo {
+    height: 70px;
     width: auto;
-}
+} */
 header h1 {
     margin: 0;
     font-size: 2em;
@@ -78,8 +79,8 @@ header p {
 
 /* Navigation Bar Styles */
 nav {
-    border-top: #333;
-    height: ;
+    
+    height: fit-content;
     background-color:rgb(97, 59, 59);
     display: flex;
     justify-content :center;
@@ -240,29 +241,27 @@ video {
     justify-content: right;
     color: rgb(14, 12, 13);
     
-        width: 200px;
+        width: 20px;
         height: 80px;
-        background: #f0eded;
+        background: #ff0000;
         border: none;
         border-radius: 30px;
         cursor: pointer;
         transition: .3s;
-        width: 200px;
-        height: 80px;
-    
+       
     
     }
     .login-btn{
-        justify-content: right;
-        background-color: #311baf;
-        color: black;
-        width: 400px;
-        height: 80px;
-        background: #222;
+        justify-content: center;
+        /* background-color: red;
+        color: white;
+        width: fit-content;
+        
+        
         border: none;
-        border-radius: 30px;
+        border-radius: 30px; 
         cursor: pointer;
-        transition: .3s;
+        transition: .3s; */
     }
 
 
