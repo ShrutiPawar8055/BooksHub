@@ -37,7 +37,7 @@ header {
 /* Navigation Styles */
 
 marquee{
-    background-color: green;
+    background-color:rgb(39, 179, 39);
  color:white;
  font-weight: bold;
  font-size: larger;
@@ -56,6 +56,9 @@ header {
     
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 1.3em;
+}
+.login-btn a {
+    color: #17af2e;
 }
 
 
@@ -80,7 +83,7 @@ nav {
     height: fit-content;
     background-color:rgb(97, 59, 59);
     display: flex;
-    justify-content :center;
+    justify-content :right;
     padding: 10px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
