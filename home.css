@@ -3,6 +3,32 @@
     padding: 0;
     font-family: sans-serif;
 }
+.booklogo {
+    display:flex;
+    justify-content: left;
+    display: flex;
+     align-items: center;
+    justify-content: flex-start; 
+    margin-top: 0px;
+}
+.logonew {
+    
+    font-size:80px ;
+    font-style:italic;
+    font-weight: bold;
+}
+
+.searchbar {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
 header {
     
     background-color: #7f4172;
@@ -13,6 +39,7 @@ header {
     margin: 0px;
     height:fit-content;
     justify-content: inline;
+    align-items: center;
 }
 h1 {
     color: rgb(77, 59, 70);
@@ -67,11 +94,14 @@ header h1 {
     font-weight: bold;
    
 }
+ 
 
 header p {
     margin: 2px 0 0;
 }
-
+.login-btn a {
+    color: #37b049;
+}
 /* Navigation Bar Styles */
 nav {
     
@@ -99,7 +129,7 @@ nav a:hover {
 
 /* Footer Styles */
 footer {
-    background-color: #362624;
+    background-color:  #613a34;
     color: white;
     text-align: center;
     padding: 105px 0;
@@ -248,6 +278,7 @@ video {
     }
     .login-btn{
         justify-content: center;
+        background-color: #ddd;
         /* background-color: red;
         color: white;
         width: fit-content;
@@ -258,46 +289,5 @@ video {
         cursor: pointer;
         transition: .3s; */
     }
-    header {
-        background-color: rgb(251, 231, 214);
-        color:rgb(80, 32, 32);
-        text-align: center;
-        padding-top: 0.5rem;
-        padding-left: 2rem;
-        
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        font-size: 1.3em;
-    }
-    .login-btn a {
-        color: #17af2e;
-    }
-    
-    
-    .logo {
-        height: 7px;
-        width: auto;
-    }
-    header h1 {
-        margin: 0;
-        font-size: 2em;
-        font-weight: bold;
-       
-    }
-    
-    header p {
-        margin: 2px 0 0;
-    }
-    h2 {
-        font-size: 3rem;
-        margin-bottom: 20px;
-        color: black;
-    }
-    .logonew {
-        
-        font-size:80px ;
-        font-style:italic;
-        font-weight: bold;
-    }
-    
 
 
