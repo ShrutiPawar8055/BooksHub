@@ -75,7 +75,7 @@ header p {
 /* Navigation Bar Styles */
 nav {
     
-    height: 0px ;
+    height: fit-content;
     background-color:rgb(97, 59, 59);
     display: flex;
     justify-content :center;
