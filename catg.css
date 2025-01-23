@@ -1,10 +1,9 @@
 /* General Styles */
-body {
-    font-family: 'Roboto', sans-serif;
+body, html {
     margin: 0;
     padding: 0;
-    background-color: rgb(129, 65, 9);
-    color: peachpuff;
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 * {
     margin: 0;
@@ -38,11 +37,7 @@ header {
 /* Navigation Styles */
 
 marquee{
-<<<<<<< HEAD
-    background-color: rgb(250, 197, 150);
-=======
-    background-color
->>>>>>> 8dae2d2d8c3f61726e43dbdcf14057076ddf5b20
+    background-color: green;
  color:white;
  font-weight: bold;
  font-size: larger;
@@ -82,7 +77,7 @@ header p {
 /* Navigation Bar Styles */
 nav {
     border-top: #333;
-    height: ;
+    height: fit-content;
     background-color:rgb(97, 59, 59);
     display: flex;
     justify-content :center;
@@ -152,12 +147,7 @@ footer a:hover {
     object-fit: cover; Ensures video covers the viewport */
 /* } */
 /* General reset for body */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
-}
+
 
 /* Video Background */
 /* .video-background {
@@ -189,9 +179,9 @@ body, html {
     color: white;
     text-align: center;
 }
-button{
+/* button{
     text-color: black;
-}
+} */
 
 /* Section Title */
 h2 {
@@ -199,9 +189,9 @@ h2 {
     margin-bottom: 20px;
     color: black;
 }
-button {
+/* button {
     justify-content: center;
-}
+} */
 
 /* Grid Layout for Categories */
 .books-grid {
