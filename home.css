@@ -46,20 +46,6 @@ h1 {
     color: rgb(77, 59, 70);
    
 }
-.icons {
-    display: flex;
-    justify-content: right;
-    gap: 30px;
-
-    font-size: 24px;
-    color: #fff;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-    text-align: right;
-
-}
-
-/* Navigation Styles */
 
 marquee{
     background-color:rgb(10, 189, 10);
@@ -71,9 +57,7 @@ marquee{
  justify-content:center;
  animation: scroll 10s linear infinite;
  white-space: nowrap;
- 
- 
- 
+
 }
 header {
     background-color: rgb(251, 231, 214);
@@ -115,10 +99,6 @@ header {
   }
 
 
-/* .logo {
-    height: 70px;
-    width: auto;
-} */
 header h1 {
     margin: 0;
     font-size: 2em;
@@ -130,10 +110,7 @@ header h1 {
 header p {
     margin: 2px 0 0;
 }
-.login-btn a {
-    color: #37b049;
-}
-/* Navigation Bar Styles */
+
 nav {
     
     height: fit-content;
@@ -158,7 +135,7 @@ nav a:hover {
     color: white;
 }
 
-/* Footer Styles */
+
 footer {
     background-color:  #613a34;
     color: white;
@@ -175,19 +152,14 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-.video-background {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
 
-/* General Styles */
+
+
 body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    overflow-x:scroll ; /* Prevent horizontal scrolling */
+    overflow-x:scroll ; 
 }
 
 .full-screen {
@@ -219,24 +191,6 @@ video {
     transform: translate(-50%, -50%);
     z-index: 1;
     object-fit: cover; 
-}
-
-.quote-content {
-    /* position: absolute;
-    top: 50%; 
-    left: 50%;  */
-    display: inline-block;
-    
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    z-index: 2;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
 }
 
 .slideshow-container {
@@ -311,16 +265,17 @@ video {
     }
     .login-btn{
         justify-content: center;
-        background-color: #ddd;
-        /* background-color: red;
-        color: white;
+        background-color: transparent;
+        
+        color: rgb(255, 255, 255);
         width: fit-content;
         
-        
-        border: none;
-        border-radius: 30px; 
         cursor: pointer;
-        transition: .3s; */
+        transition: .3s;
     }
+    .login-btn a {
+        color: #ffffff;
+    }
+    
 
 
