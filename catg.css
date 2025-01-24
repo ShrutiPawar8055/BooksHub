@@ -50,7 +50,8 @@ header {
 .login-btn a {
     color: #2ea340;
     background-color: #ddd;
-    display: flex;
+    /* display: flex; */
+    justify-content: center;
 }
 .search-bar {
     display: flex;
