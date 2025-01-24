@@ -68,6 +68,8 @@ marquee{
  /* font-size: larger; */
  height: 25px;
  justify-content:center;
+ animation: scroll 10s linear infinite;
+ white-space: nowrap;
  
  
  
