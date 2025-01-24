@@ -90,6 +90,7 @@ header {
     justify-content: left;
     margin-top: 20px;
     height: 40px;
+    padding-right: 420px;
   }
   input[type="text"] {
     padding: 10px;
@@ -221,9 +222,11 @@ video {
 }
 
 .quote-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    /* position: absolute;
+    top: 50%; 
+    left: 50%;  */
+    display: inline-block;
+    
     transform: translate(-50%, -50%);
     color: white;
     font-size: 2rem;
@@ -259,7 +262,7 @@ video {
 
 .photo-quote {
     position: absolute;
-    bottom: 20%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
     color: white;
